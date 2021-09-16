@@ -15,7 +15,7 @@ public class WageCalculations {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 1 for computing in days\nEnter 2 for computing in hour");
         int userInput = sc.nextInt();
-        WageCalculations wageForCompany1 = new WageCalculations();
+        WageCalculations wageForCompany1 = new WageCalculations();          //different  objects for multiple companies
         WageCalculations wageForCompany2 = new WageCalculations();
         WageCalculations wageForCompany3 = new WageCalculations();
         WageCalculations wageForCompany4 = new WageCalculations();
